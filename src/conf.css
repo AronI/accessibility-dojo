@@ -1,0 +1,45 @@
+.main-conf {
+  margin: 64px 0;
+  flex: 1;
+  filter: blur(8px);
+  pointer-events: none;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 1000px;
+  padding: 32px 48px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+}
+
+.inline-control {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 16px;
+}
+
+.inline-control:last-child {
+  margin-right: 0;
+}
+
+.trip-selector {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.trip-selector label {
+  display: inline;
+  margin-right: 16px;
+}
+
+.sign-up {
+  vertical-align: bottom;
+}
+
+.submit-form {
+  vertical-align: bottom;
+}
