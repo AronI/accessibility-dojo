@@ -11,14 +11,14 @@ So you might need to use something like Mac's built in VoiceOver to be able to b
 
 
 Here are a few useful VoiceOver shortcuts:
-CMD+F5 to turn on VoiceOver on OS X
-Normal keyboard operation (TAB, Shift+TAB, arrow keys etc.) work as normal with VoiceOver running
-CMD+L to jump to address bar
-CTRL+Option+U to open Web Rotor
-Type search term with Web Rotor open to search within Web Rotor
-CTRL + Option + ← ↑ ↓ → to explore content
-CTRL + Option + CMD + H to move forward by heading
-CTRL + Option + CMD + Shift + H to move backward by heading
+* <kbd>CMD</kbd>+<kbd>F5</kbd> to turn on VoiceOver on OS X
+* Normal keyboard operation (<kbd>TAB</kbd>, <kbd>Shift</kbd>+<kbd>TAB</kbd>, arrow keys etc.) work as normal with VoiceOver running
+* <kbd>CMD+L</kbd> to jump to address bar
+* <kbd>CTRL</kbd>+<kbd>Option</kbd>+<kbd>U</kbd> to open Web Rotor
+* Type search term with Web Rotor open to search within Web Rotor
+* <kbd>CTRL</kbd> + <kbd>Option</kbd> + <kbd>←</kbd> <kbd>↑</kbd> <kbd>↓</kbd> <kbd>→</kbd> to explore content
+* <kbd>CTRL</kbd> + <kbd>Option</kbd> + <kbd>CMD</kbd> + <kbd>H</kbd> to move forward by heading
+* <kbd>CTRL</kbd> + <kbd>Option</kbd> + <kbd>CMD</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd> to move backward by heading
 
 ## Competition
 Please make a PR with as many accessibility fixes you can.
