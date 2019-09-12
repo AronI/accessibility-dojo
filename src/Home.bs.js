@@ -7,7 +7,8 @@ var React = require("react");
 
 function Home(Props) {
   return React.createElement("div", {
-              className: "main"
+              className: "main",
+              tabIndex: -1
             }, React.createElement("div", {
                   className: "home-container"
                 }, React.createElement("div", {

@@ -34,6 +34,11 @@ h2 {
     top: -10000px;
 }
 
+.offscreen:focus {
+  left:0px;
+  top:0px;
+}
+
 .img-news {
   height: 250px;
 }

@@ -2,7 +2,7 @@
 
 [@react.component]
 let make = _ => {
-  <div className="main">
+  <div className="main" tabIndex={-1}>
     <div className="home-container">
       <div className="offscreen"> {ReasonReact.string("Top story")} </div>
       <div className="article">
