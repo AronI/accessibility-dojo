@@ -6,8 +6,10 @@ var React = require("react");
 (( require('./success.css') ));
 
 function Success(Props) {
-  return React.createElement("div", {
-              className: "img-success"
+  return React.createElement("img", {
+              className: "img-success",
+              alt: "success med s\xc3\xb8d hund",
+              src: "https://i.imgflip.com/3acpdu.jpg"
             });
 }
 

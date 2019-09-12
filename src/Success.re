@@ -4,5 +4,5 @@
 
 [@react.component]
 let make = () => {
-  <div className="img-success" />;
+  <img className="img-success" src="https://i.imgflip.com/3acpdu.jpg" alt="success med sød hund"/>;
 };
