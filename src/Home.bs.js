@@ -18,6 +18,7 @@ function Home(Props) {
                           className: "main-story"
                         }, React.createElement("img", {
                               className: "pull-right",
+                              alt: "Arena with conf guests",
                               src: "https://bit.ly/2kuIbh3"
                             }), React.createElement("div", {
                               className: "info"
@@ -39,12 +40,14 @@ function Home(Props) {
                                       href: "https://www.dyslexicadvantage.org/fake-news/"
                                     }, "Read More About Fake News on Dyslexia")), React.createElement("img", {
                                   className: "img-news",
+                                  alt: "fake news",
                                   src: "https://bit.ly/2kuIPet"
                                 }))), React.createElement("div", {
                           className: "column"
                         }, React.createElement("div", {
                               className: "article"
                             }, React.createElement("div", undefined, React.createElement("img", {
+                                      alt: "color blindness test dots",
                                       src: "https://bit.ly/2kaN4vi"
                                     }), React.createElement("div", {
                                       className: "info"
@@ -62,6 +65,7 @@ function Home(Props) {
                               className: "article"
                             }, React.createElement("img", {
                                   className: "img-recommended",
+                                  alt: "grimacing man holding ears",
                                   src: "https://bit.ly/2lM98gp"
                                 }), React.createElement("div", {
                                   className: "info"
@@ -73,6 +77,7 @@ function Home(Props) {
                               className: "article"
                             }, React.createElement("img", {
                                   className: "img-recommended",
+                                  alt: "LOL",
                                   src: "https://bit.ly/2lKUoOI"
                                 }), React.createElement("div", {
                                   className: "info"
@@ -84,6 +89,7 @@ function Home(Props) {
                               className: "article"
                             }, React.createElement("img", {
                                   className: "img-recommended",
+                                  alt: "content not available",
                                   src: "https://bit.ly/2kHTNgr"
                                 }), React.createElement("div", {
                                   className: "info"

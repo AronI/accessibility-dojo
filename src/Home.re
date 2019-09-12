@@ -7,7 +7,7 @@ let make = _ => {
       <div className="offscreen"> {ReasonReact.string("Top story")} </div>
       <div className="article">
         <div className="main-story">
-          <img className="pull-right" src="https://bit.ly/2kuIbh3" />
+          <img className="pull-right" src="https://bit.ly/2kuIbh3" alt="Arena with conf guests"/>
           <div className="info">
             <div className="headline">
               {ReasonReact.string("Accessibility Haters Conf 2019!")}
@@ -39,13 +39,13 @@ let make = _ => {
                 {ReasonReact.string("Read More About Fake News on Dyslexia")}
               </a>
             </div>
-            <img className="img-news" src="https://bit.ly/2kuIPet" />
+            <img className="img-news" src="https://bit.ly/2kuIPet" alt="fake news"/>
           </div>
         </div>
         <div className="column">
           <div className="article">
             <div>
-              <img src="https://bit.ly/2kaN4vi" />
+              <img src="https://bit.ly/2kaN4vi" alt="color blindness test dots"/>
               <div className="info">
                 <div className="headline">
                   {ReasonReact.string("Color blindness is a lie!")}
@@ -70,7 +70,7 @@ let make = _ => {
         </div>
         <div className="columns">
           <div className="article">
-            <img className="img-recommended" src="https://bit.ly/2lM98gp" />
+            <img className="img-recommended" src="https://bit.ly/2lM98gp" alt="grimacing man holding ears"/>
             <div className="info">
               <div className="headline">
                 {ReasonReact.string(
@@ -86,7 +86,7 @@ let make = _ => {
             </div>
           </div>
           <div className="article">
-            <img className="img-recommended" src="https://bit.ly/2lKUoOI" />
+            <img className="img-recommended" src="https://bit.ly/2lKUoOI" alt="LOL"/>
             <div className="info">
               <div className="headline">
                 {ReasonReact.string(
@@ -99,7 +99,7 @@ let make = _ => {
             </div>
           </div>
           <div className="article">
-            <img className="img-recommended" src="https://bit.ly/2kHTNgr" />
+            <img className="img-recommended" src="https://bit.ly/2kHTNgr" alt="content not available"/>
             <div className="info">
               <div className="headline">
                 {ReasonReact.string(
