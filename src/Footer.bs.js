@@ -2,21 +2,16 @@
 'use strict';
 
 var React = require("react");
-var ReasonReactRouter = require("reason-react/src/ReasonReactRouter.js");
 
 function Footer(Props) {
-  return React.createElement("div", {
+  return React.createElement("footer", {
               className: "footer"
-            }, React.createElement("div", {
-                  className: "container"
-                }, React.createElement("div", {
-                      className: "col-4"
-                    }, React.createElement("div", {
-                          className: "navBarItem",
-                          onClick: (function (param) {
-                              return ReasonReactRouter.push("/");
-                            })
-                        }, String.fromCharCode(169) + " Accessibility Haters"))));
+            }, React.createElement("nav", {
+                  className: "col-4"
+                }, React.createElement("a", {
+                      className: "navBarItem",
+                      href: "/"
+                    }, String.fromCharCode(169) + " Accessibility Haters")));
 }
 
 var make = Footer;

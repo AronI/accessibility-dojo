@@ -2,35 +2,24 @@
 'use strict';
 
 var React = require("react");
-var ReasonReactRouter = require("reason-react/src/ReasonReactRouter.js");
 
 function Header(Props) {
-  return React.createElement("div", {
+  return React.createElement("header", {
               className: "header"
-            }, React.createElement("div", {
-                  className: "container"
-                }, React.createElement("div", {
+            }, React.createElement("nav", undefined, React.createElement("a", {
                       className: "navBarItem",
-                      onClick: (function (param) {
-                          return ReasonReactRouter.push("/");
-                        })
+                      href: "/"
                     }, React.createElement("div", {
                           className: "logoText"
                         }, "Accessibility ", React.createElement("span", {
                               className: "logoText2"
-                            }, "Haters"))), React.createElement("div", {
-                      className: "navBar"
-                    }, React.createElement("div", {
-                          className: "navBarItem",
-                          onClick: (function (param) {
-                              return ReasonReactRouter.push("/conf");
-                            })
-                        }, "AccHaters Conf 2019!"), React.createElement("div", {
-                          className: "navBarItem",
-                          onClick: (function (param) {
-                              return ReasonReactRouter.push("/");
-                            })
-                        }, "About us"))));
+                            }, "Haters"))), React.createElement("a", {
+                      className: "navBarItem",
+                      href: "/conf"
+                    }, "AccHaters Conf 2019!"), React.createElement("a", {
+                      className: "navBarItem",
+                      href: "/"
+                    }, "About us")));
 }
 
 var make = Header;
